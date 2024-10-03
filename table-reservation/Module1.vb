@@ -41,9 +41,17 @@
                 ' Falta asignar la mesa al usuario depeniendo la cantidad 
                 ' de comensales ingresados
                 Console.WriteLine("Numero de mesa: ")
+            Case 3
+                ' buscar reserva
+            Case 4
+                ' Eliminar o cancelar reserva
+            Case 5
+                ' Mostara distribucion de mesas
+            Case 6
+                ' Reportes
+            Case 7
+                ' Salir del programa
         End Select
-
-
 
     End Sub
 
