@@ -20,6 +20,7 @@
         Dim opcion As Integer = Console.ReadLine()
         Select Case opcion
             Case 1
+                Console.WriteLine("Agregar Reservas")
                 Console.Write("Ingrese su nombre: ")
                 reserva1(0) = Console.ReadLine()
                 Console.Write("Ingrese su telefono: ")
@@ -31,6 +32,7 @@
                 Console.Write("Ingrese el rut: ")
                 reserva1(4) = Console.ReadLine()
             Case 2
+                Console.WriteLine("Mostrar Reservas")
                 Console.WriteLine("Nombre: " & reserva1(0))
                 Console.WriteLine("Telefono: " & reserva1(1))
                 Console.WriteLine("Cantidad de personas: " & reserva1(2))
