@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{A028DBB1-B68C-41D0-88C9-5A1653B40399}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>reservaMesa.Module1</StartupObject>
+    <StartupObject>reservaMesa.home</StartupObject>
     <RootNamespace>reservaMesa</RootNamespace>
     <AssemblyName>reservaMesa</AssemblyName>
     <FileAlignment>512</FileAlignment>
