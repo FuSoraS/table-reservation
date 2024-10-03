@@ -21,6 +21,7 @@
         Select Case opcion
             Case 1
                 Console.WriteLine("Agregar Reservas")
+                ' Crear un funcion que agrege las revervas
                 Console.Write("Ingrese su nombre: ")
                 reserva1(0) = Console.ReadLine()
                 Console.Write("Ingrese su telefono: ")
